@@ -24,7 +24,7 @@
 24| 
 25| Copilot : Очікуємо вашого підтвердження для додавання файлу CMakeLists.txt у зазначену гілку.
 26| 
-27| User : @Copilot Accepted Confirmation: Are you sure?
+27| User : @Copilot Accepted Confirmation: Are you sure? 
 28| 
 29| Copilot : Файл CMakeLists.txt успішно додано у гілку feature/develop/02-CMake:  
 30| (посилання на файл)
