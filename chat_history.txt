@@ -1,3 +1,15 @@
+1| User : Створи вихідний файл за допомогою Copilot: У корені репозиторію
+2| створіть файл main.cpp з мінімальною програмою "Hello World":
+3| мій репозиторій : https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/01-HelloWorld
+4| 
+5| Copilot : Очікую на підтвердження вашої дії, щоб продовжити створення файлу main.cpp у вашому репозиторії.
+6| 
+7| User : @Copilot Accepted Confirmation: Are you sure?
+8| 
+9| Copilot : Файл main.cpp з мінімальною програмою "Hello World" успішно створено у корені репозиторію у гілці feature/develop/01-HelloWorld.
+10| 
+11| User : створи у цій гілці також файл txt із всіма запитами та відповідями які були у цьому чаті
+12| 
 13| User : додай в цю гілку https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/02-CMake
 14| файл з назвою CMakeLists.txt.
 15| та згенеруй наповнення цього файлу
