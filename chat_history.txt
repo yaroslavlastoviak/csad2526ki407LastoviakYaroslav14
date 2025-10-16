@@ -1,11 +1,32 @@
-User : Створи вихідний файл за допомогою Copilot: У корені репозиторію
-створіть файл main.cpp з мінімальною програмою "Hello World":
-мій репозиторій : https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/01-HelloWorld
-
-Copilot : Очікую на підтвердження вашої дії, щоб продовжити створення файлу main.cpp у вашому репозиторії.
-
-User : @Copilot Accepted Confirmation: Are you sure?
-
-Copilot : Файл main.cpp з мінімальною програмою "Hello World" успішно створено у корені репозиторію у гілці feature/develop/01-HelloWorld.
-
-User : створи у цій гілці також файл txt із всіма запитами та відповідями які були у цьому чаті
+1| User : Створи вихідний файл за допомогою Copilot: У корені репозиторію
+2| створіть файл main.cpp з мінімальною програмою "Hello World":
+3| мій репозиторій : https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/01-HelloWorld
+4| 
+5| Copilot : Очікую на підтвердження вашої дії, щоб продовжити створення файлу main.cpp у вашому репозиторії.
+6| 
+7| User : @Copilot Accepted Confirmation: Are you sure?
+8| 
+9| Copilot : Файл main.cpp з мінімальною програмою "Hello World" успішно створено у корені репозиторію у гілці feature/develop/01-HelloWorld.
+10| 
+11| User : створи у цій гілці також файл txt із всіма запитами та відповідями які були у цьому чаті
+12| 
+13| User : додай в цю гілку https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/02-CMake
+14| файл з назвою CMakeLists.txt.
+15| та згенеруй наповнення цього файлу
+16| 
+17| Copilot : Ось базовий шаблон для файлу `CMakeLists.txt` для C++ проекту. Якщо у вас є специфічні вимоги (наприклад, потрібні бібліотеки, версія CMake, тощо) — повідомте, будь ласка.
+18| 
+19| (далі йде шаблон CMakeLists.txt)
+20| 
+21| Copilot : Підтвердьте, якщо цей шаблон підходить, або уточніть потрібні налаштування. Готовий зробити пуш у зазначену гілку!
+22| 
+23| User : підходить 
+24| 
+25| Copilot : Очікуємо вашого підтвердження для додавання файлу CMakeLists.txt у зазначену гілку.
+26| 
+27| User : @Copilot Accepted Confirmation: Are you sure?
+28| 
+29| Copilot : Файл CMakeLists.txt успішно додано у гілку feature/develop/02-CMake:  
+30| (посилання на файл)
+31| 
+32| User : додай історію логів цього чату в існуючий файл гілки chat_history.txt
