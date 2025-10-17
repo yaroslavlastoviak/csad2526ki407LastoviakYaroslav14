@@ -1,0 +1,45 @@
+--- Session log appended on 2025-10-17 21:21:41 UTC ---
+1| User : Створи вихідний файл за допомогою Copilot: У корені репозиторію
+2| створіть файл main.cpp з мінімальною програмою "Hello World":
+3| мій репозиторій : https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/01-HelloWorld
+4| 
+5| Copilot : Очікую на підтвердження вашої дії, щоб продовжити створення файлу main.cpp у вашому репозиторії.
+6| 
+7| User : @Copilot Accepted Confirmation: Are you sure?
+8| 
+9| Copilot : Файл main.cpp з мінімальною програмою "Hello World" успішно створено у корені репозиторію у гілці feature/develop/01-HelloWorld.
+10| 
+11| User : створи у цій гілці також файл txt із всіма запитами та відповідями які були у цьому чаті
+12| 
+13| User : додай в цю гілку https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/02-CMake
+14| файл з назвою CMakeLists.txt.
+15| та згенеруй наповнення цього файлу
+16| 
+17| Copilot : Ось базовий шаблон для файлу `CMakeLists.txt` для C++ проекту. Якщо у вас є специфічні вимоги (наприклад, потрібні бібліотеки, версія CMake, тощо) — повідомте, будь ласка.
+18| 
+19| (далі йде шаблон CMakeLists.txt)
+20| 
+21| Copilot : Підтвердьте, якщо цей шаблон підходить, або уточніть потрібні налаштування. Готовий зробити пуш у зазначену гілку!
+22| 
+23| User : підходить 
+24| 
+25| Copilot : Очікуємо вашого підтвердження для додавання файлу CMakeLists.txt у зазначену гілку.
+26| 
+27| User : @Copilot Accepted Confirmation: Are you sure? 
+28| 
+29| Copilot : Файл CMakeLists.txt успішно додано у гілку feature/develop/02-CMake:  
+30| (посилання на файл)
+31| 
+32| User : додай історію логів цього чату в існуючий файл гілки chat_history.txt
+доповни ці логи, логами цього чату та додай у chat_history.txt
+33| User : у цій гілці https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/03-Unit-tests Створи файл math_operations.h та math_operations.cpp у корені проекту. У math_operations.h створи функцію int add(int a, int b);
+34| Copilot : Очікую на підтвердження вашої дії, щоб продовжити.
+35| User : @Copilot Accepted Confirmation: Are you sure?
+36| Copilot : Створено math_operations.h з оголошенням add().
+37| Copilot : Додано math_operations.cpp і підтверджено оновлення.
+38| User : 2. Створення файлу юніт-тестів: Створи новий каталог tests. У ньому створи файл unit_tests.cpp. Напиши юніт тести. 3. Оновлення CMakeLists.txt: Використай Copilot для додавання підтримки Google Test і створення тестового виконуваного файлу та запуску тестів.
+39| Copilot : Створено tests/unit_tests.cpp з юніт-тестами для add().
+40| User : та зроби це все в гілці, та наразі там немає файлу CMakeLists.txt. то створи його та заповни
+41| Copilot : Створено кореневий CMakeLists.txt з підтримкою GoogleTest і ціллю unit_tests.
+42| User : тепер створи chat_history.txt та запиши туди історію логів цього чату
+43| Copilot : Створено chat_history.txt з логами робіт у гілці feature/develop/03-Unit-tests.
