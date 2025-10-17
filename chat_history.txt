@@ -1,4 +1,3 @@
---- Session log appended on 2025-10-17 21:21:41 UTC ---
 1| User : Створи вихідний файл за допомогою Copilot: У корені репозиторію
 2| створіть файл main.cpp з мінімальною програмою "Hello World":
 3| мій репозиторій : https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/01-HelloWorld
