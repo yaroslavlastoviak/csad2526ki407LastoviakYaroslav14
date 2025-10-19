@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Determine repository root (directory of this script)
-SCRIPT_DIR="$(cd ""$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Allow overrides via env vars
