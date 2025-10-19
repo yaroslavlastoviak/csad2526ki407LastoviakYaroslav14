@@ -30,3 +30,15 @@
 30| (посилання на файл)
 31| 
 32| User : додай історію логів цього чату в існуючий файл гілки chat_history.txt
+доповни ці логи, логами цього чату та додай у chat_history.txt
+33| User : у цій гілці https://github.com/yaroslavlastoviak/csad2526ki407LastoviakYaroslav14/tree/feature/develop/03-Unit-tests Створи файл math_operations.h та math_operations.cpp у корені проекту. У math_operations.h створи функцію int add(int a, int b);
+34| Copilot : Очікую на підтвердження вашої дії, щоб продовжити.
+35| User : @Copilot Accepted Confirmation: Are you sure?
+36| Copilot : Створено math_operations.h з оголошенням add().
+37| Copilot : Додано math_operations.cpp і підтверджено оновлення.
+38| User : 2. Створення файлу юніт-тестів: Створи новий каталог tests. У ньому створи файл unit_tests.cpp. Напиши юніт тести. 3. Оновлення CMakeLists.txt: Використай Copilot для додавання підтримки Google Test і створення тестового виконуваного файлу та запуску тестів.
+39| Copilot : Створено tests/unit_tests.cpp з юніт-тестами для add().
+40| User : та зроби це все в гілці, та наразі там немає файлу CMakeLists.txt. то створи його та заповни
+41| Copilot : Створено кореневий CMakeLists.txt з підтримкою GoogleTest і ціллю unit_tests.
+42| User : тепер створи chat_history.txt та запиши туди історію логів цього чату
+43| Copilot : Створено chat_history.txt з логами робіт у гілці feature/develop/03-Unit-tests.
