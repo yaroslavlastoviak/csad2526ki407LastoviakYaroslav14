@@ -3,12 +3,12 @@ name: cross_build
 on:
   push:
     branches:
-      - '*develop*'
-      - '*master*'
+      - develop
+      - master
   pull_request:
     branches:
-      - '*develop*'
-      - '*master*'
+      - develop
+      - master
 
 jobs:
   cross_build:
