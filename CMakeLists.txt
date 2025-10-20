@@ -13,42 +13,23 @@ file(GLOB SOURCES "*.cpp")
 # Створити виконуваний файл з джерел
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-# ----------------- Підтримка GoogleTest та юніт-тестів -----------------
+# Math operations library for unit testing
+add_library(math_operations math_operations.cpp)
 
+# Google Test setup
 include(FetchContent)
-
-# Отримуємо GoogleTest (без зовнішньої інсталяції)
 FetchContent_Declare(
   googletest
-  GIT_REPOSITORY https://github.com/google/googletest.git
-  GIT_TAG release-1.14.0
+  URL https://github.com/google/googletest/archive/refs/heads/main.zip
 )
-# Для MSVC: використати спільний CRT (рекомендація GoogleTest)
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-# Увімкнути ctest
 enable_testing()
 
-# Виконуваний файл з тестами
-add_executable(unit_tests
-  tests/unit_tests.cpp
-  math_operations.cpp
-)
+# Create unit test executable
+add_executable(unit_tests tests/unit_tests.cpp)
+target_link_libraries(unit_tests gtest_main math_operations)
 
-# Додати інклуди з кореня (для math_operations.h)
-target_include_directories(unit_tests PRIVATE
-  ${PROJECT_SOURCE_DIR}
-)
-
-# Лінкування з GTest
-target_link_libraries(unit_tests
-  GTest::gtest_main
-)
-
-# (опціонально) явно зазначити стандарт для цілі тестів
-set_property(TARGET unit_tests PROPERTY CXX_STANDARD 17)
-
-# Автоматичне виявлення та реєстрація тестів
 include(GoogleTest)
 gtest_discover_tests(unit_tests)
