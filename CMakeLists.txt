@@ -26,6 +26,8 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 enable_testing()
+# Додаємо папку з заголовочними файлами
+include_directories(${CMAKE_SOURCE_DIR})
 
 # Create unit test executable
 add_executable(unit_tests tests/unit_tests.cpp)
