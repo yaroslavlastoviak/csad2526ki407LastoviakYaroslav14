@@ -1,6 +1,6 @@
 module i2c_tx #(
     // Дільник системної частоти для отримання частоти SCL.
-    // Формула: CLK_DIV = (System_CLK_Freq / I2C_SCL_Freq) / 2
+    // Формула: CLK_DIV = (System_CLK_Freq / I2C_SCL_Freq) / 2 
     // Наприклад, для 50 MHz clk та 100 kHz SCL: (50,000,000 / 100,000) / 2 = 250
     parameter CLK_DIV = 250
 )(
